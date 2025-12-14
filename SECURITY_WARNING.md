@@ -19,6 +19,12 @@ This repository contains **intentional security modifications** to the Samsung S
 - Hidden configuration, product, and detail menus are visible
 - Internal debugging tools are accessible
 
+### 4. Remove SharedUserId
+- Application no longer shares UID with Samsung Cloud apps
+- Runs with its own unique UID
+- Cannot access shared data/resources from official Samsung apps
+- Necessary to allow installation with modified signature
+
 ## ⚠️ RISKS AND CONSEQUENCES
 
 **Using these modifications may:**
