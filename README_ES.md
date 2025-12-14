@@ -8,6 +8,7 @@ Este repositorio contiene modificaciones al código smali de la aplicación Sams
 2. ✅ **Mostrar menú de debug/developer** - Opciones de desarrollador visibles automáticamente
 3. ✅ **Habilitar modo debug** - DEBUG=true en toda la aplicación
 4. ✅ **Desactivar verificación de firmas** - Los permisos ya no requieren firma específica
+5. ✅ **Eliminar sharedUserId** - Corrige errores de instalación de compatibilidad
 
 ## Cambios Principales
 
@@ -32,6 +33,13 @@ Este repositorio contiene modificaciones al código smali de la aplicación Sams
 **Archivo:** `AndroidManifest.xml`
 - `android:debuggable="true"`
 - Se puede debuggear con herramientas estándar
+
+### 5. SharedUserId Eliminado
+**Archivo:** `AndroidManifest.xml`
+- Removido `android:sharedUserId="android.uid.samsungcloud"`
+- **Por qué:** Corrige el error "INSTALL_FAILED_SHARED_USER_INCOMPATIBLE"
+- **Explicación:** La APK modificada está firmada con un certificado diferente al de Samsung. Android requiere que todas las apps que comparten un UID estén firmadas con el mismo certificado. Al eliminar el sharedUserId, la app puede instalarse de forma independiente.
+- **Nota:** La app ahora se ejecuta con su propio UID único en lugar de compartir con otras apps de Samsung Cloud.
 
 ## Cómo Usar
 

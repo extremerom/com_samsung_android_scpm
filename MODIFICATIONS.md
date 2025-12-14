@@ -9,6 +9,7 @@ The following changes were made:
 2. Enabled debug mode throughout the application
 3. Bypassed signature verification for protected components
 4. Made the application debuggable
+5. Removed sharedUserId to fix installation compatibility issues
 
 ## Detailed Changes
 
@@ -92,6 +93,22 @@ The following changes were made:
 <application ... android:debuggable="true" />
 ```
 **Effect:** Application can now be debugged with standard Android debugging tools
+
+#### e) Removed sharedUserId to Fix Installation Compatibility
+```xml
+<!-- Before -->
+<manifest android:sharedUserId="android.uid.samsungcloud" ... />
+
+<!-- After -->
+<manifest ... />
+```
+**Effect:** Fixes "INSTALL_FAILED_SHARED_USER_INCOMPATIBLE" error when installing the modified APK. The sharedUserId was removed because:
+- Modified APK is signed with a different certificate than Samsung's official apps
+- Android requires all apps sharing a UID to be signed with the same certificate
+- Removing sharedUserId allows the app to install independently
+- The app will run with its own unique UID instead of sharing with Samsung Cloud apps
+
+**Note:** This means the app cannot directly access data or resources from other Samsung Cloud apps that use the shared UID. This is a necessary trade-off for installing the modified version.
 
 ### 3. BuildConfig Files
 
