@@ -57,7 +57,7 @@
         <provider android:name="com.samsung.scsp.common.ScpmProvider" android:enabled="true" android:exported="true" android:authorities="com.samsung.android.scpm.pam;com.samsung.android.scpm.keystore;com.samsung.android.scpm.policy;com.samsung.android.scpm.product;com.samsung.android.scpm.deviceservice;com.samsung.android.scpm.kps;com.samsung.android.scpm.dls">
             <meta-data android:name="version" android:value="2" />
         </provider>
-        <activity android:theme="@style/Theme.Space" android:name="com.samsung.android.scpm.app.dev.ManageActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize">
+        <activity android:theme="@style/Theme.Space" android:name="com.samsung.android.scpm.app.dev.ManageActivity" android:exported="false" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize">
         </activity>
         <meta-data android:name="theming-meta" android:resource="@xml/metadata_colorpalette" />
         <activity android:theme="@style/Theme.Compat.SCloudTheme" android:label="@string/title_activity_setting" android:name="com.samsung.scpm.pdm.e2ee.view.MainActivity" android:exported="true" android:launchMode="singleTop" android:configChanges="locale|keyboardHidden|orientation|screenLayout|screenSize" android:windowSoftInputMode="adjustResize">
