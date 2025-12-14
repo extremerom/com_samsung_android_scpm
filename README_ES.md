@@ -8,6 +8,7 @@ Este repositorio contiene modificaciones al código smali de la aplicación Sams
 2. ✅ **Mostrar menú de debug/developer** - Opciones de desarrollador visibles automáticamente
 3. ✅ **Habilitar modo debug** - DEBUG=true en toda la aplicación
 4. ✅ **Desactivar verificación de firmas** - Los permisos ya no requieren firma específica
+5. ✅ **Corregir problema de inicio de sesión** - La app ya no crashea al iniciar sesión con cuenta existente
 
 ## Cambios Principales
 
@@ -32,6 +33,14 @@ Este repositorio contiene modificaciones al código smali de la aplicación Sams
 **Archivo:** `AndroidManifest.xml`
 - `android:debuggable="true"`
 - Se puede debuggear con herramientas estándar
+
+### 5. Problema de Inicio de Sesión Corregido
+**Archivo:** `AuthFunctionImpl.smali`
+- **Problema:** La app crasheaba al intentar iniciar sesión con una cuenta Samsung existente
+- **Causa:** Validación externa fallaba con APK re-firmada
+- **Solución:** Método `isValidAccount()` simplificado para confiar en AccountManager
+- **Efecto:** Ya no hay crashes, el inicio de sesión funciona correctamente
+- Ver `FIX_ACCOUNT_LOGIN.md` para detalles técnicos completos
 
 ## Cómo Usar
 
@@ -64,6 +73,7 @@ Todas las opciones ocultas están ahora visibles automáticamente.
 3. `smali/com/samsung/scsp/common/BuildConfig.smali`
 4. `smali/com/samsung/scsp/framework/core/BuildConfig.smali`
 5. `smali/com/samsung/scsp/test/BuildConfig.smali`
+6. `smali/com/samsung/android/scpm/auth/AuthFunctionImpl.smali` **(NUEVO)**
 
 ## ⚠️ Advertencias
 

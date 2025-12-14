@@ -9,6 +9,7 @@ The following changes were made:
 2. Enabled debug mode throughout the application
 3. Bypassed signature verification for protected components
 4. Made the application debuggable
+5. **Fixed Samsung account login issue** (prevents crashes with modified signatures)
 
 ## Detailed Changes
 
@@ -116,6 +117,28 @@ The following changes were made:
 - Debug-only features and code paths are now active
 - Application runs in debug mode
 
+### 4. AuthFunctionImpl.smali
+**File:** `smali/com/samsung/android/scpm/auth/AuthFunctionImpl.smali`
+
+**Change:** Fixed Samsung account login crash issue
+
+**Original behavior:** The `isValidAccount()` method queried an external content provider (`com.msc.openprovider`) to validate Samsung accounts. This would fail and crash when the APK was re-signed with a different signature.
+
+**Modified behavior:** Simplified `isValidAccount()` to trust the Android AccountManager. If an account exists in AccountManager, it's considered valid without additional external validation.
+
+**Technical details:**
+- Removed content provider query to `content://com.msc.openprovider.openContentProvider/tncRequest`
+- Removed ~150 lines of complex cursor parsing and exception handling
+- Method now simply returns `true` if `hasAccount()` returns `true`
+- Prevents crashes when content provider rejects queries due to signature mismatch
+- See `FIX_ACCOUNT_LOGIN.md` for detailed analysis
+
+**Effect:**
+- Eliminates crashes when signing in with existing Samsung account
+- Works with modified/re-signed APKs
+- Allows login without external validation checks
+- Maintains compatibility with Android AccountManager
+
 ## Hidden Menu Items Unlocked
 
 The following hidden menu categories are now automatically visible in ManageActivity:
@@ -175,6 +198,7 @@ To revert these changes:
    - AndroidManifest.xml permission protectionLevels back to "signatureOrSystem"
    - AndroidManifest.xml remove `android:debuggable="true"`
    - BuildConfig files DEBUG back to false, BUILD_TYPE back to "release"
+   - AuthFunctionImpl.smali restore original `isValidAccount()` method
 
 ## Technical Notes
 
@@ -211,12 +235,16 @@ Use at your own risk.
 
 ## Change Log
 
-### Version 1.0 (Current)
+### Version 1.1 (Current)
+- **Fixed:** Samsung account login crash issue (AuthFunctionImpl.smali)
 - Unlocked hidden developer menu
 - Enabled debug mode
 - Bypassed signature verification
 - Made ManageActivity exportable
 - Added debuggable flag
+
+### Version 1.0
+- Initial modifications for hidden menus and debug mode
 
 ---
 
