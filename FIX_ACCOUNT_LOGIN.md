@@ -165,15 +165,24 @@ After applying this fix, rebuild the APK:
 # Rebuild APK
 apktool b com_samsung_android_scpm -o scpm_fixed.apk
 
-# Sign APK
+# Sign APK (choose one method)
+
+# Method 1: Using apksigner (recommended for Android 7.0+)
+apksigner sign --ks your_key.keystore --out scpm_fixed_signed.apk scpm_fixed.apk
+
+# Method 2: Using jarsigner (deprecated, but still works)
 jarsigner -verbose -keystore your_key.keystore scpm_fixed.apk your_alias
 
-# Align APK (optional but recommended)
+# Align APK (optional but recommended, only needed if using jarsigner)
 zipalign -v 4 scpm_fixed.apk scpm_fixed_aligned.apk
 
 # Install
-adb install -r scpm_fixed_aligned.apk
+adb install -r scpm_fixed_signed.apk
+# or if using jarsigner:
+# adb install -r scpm_fixed_aligned.apk
 ```
+
+**Note:** `apksigner` is the recommended tool for Android 7.0 (API 24) and higher. `jarsigner` has been deprecated but still works for older Android versions.
 
 ## Version Information
 

@@ -208,6 +208,9 @@
 
     # Skip content provider validation to avoid crashes with modified signatures
     # Simply return true if account exists in AccountManager
+    # Security note: This bypasses external validation (tncRequest content provider)
+    # but maintains compatibility with re-signed APKs. Account must still exist
+    # in the system AccountManager to be considered valid.
     const/4 p0, 0x1
 
     return p0
