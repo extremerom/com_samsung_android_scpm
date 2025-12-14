@@ -200,17 +200,16 @@
 .method public isValidAccount()Z
     .locals 6
 
+    # Modified to bypass content provider validation that fails with re-signed APKs.
+    # Returns true if account exists in AccountManager (bypasses tncRequest validation).
+    # Security: Account must still exist in system AccountManager to be valid.
+
     invoke-virtual {p0}, Lcom/samsung/android/scpm/auth/AuthFunctionImpl;->hasAccount()Z
 
     move-result p0
 
     if-eqz p0, :cond_3
 
-    # Skip content provider validation to avoid crashes with modified signatures
-    # Simply return true if account exists in AccountManager
-    # Security note: This bypasses external validation (tncRequest content provider)
-    # but maintains compatibility with re-signed APKs. Account must still exist
-    # in the system AccountManager to be considered valid.
     const/4 p0, 0x1
 
     return p0

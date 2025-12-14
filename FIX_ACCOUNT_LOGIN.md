@@ -182,7 +182,7 @@ adb install -r scpm_fixed_signed.apk
 # adb install -r scpm_fixed_aligned.apk
 ```
 
-**Note:** `apksigner` is the recommended tool for Android 7.0 (API 24) and higher. `jarsigner` has been deprecated but still works for older Android versions.
+**Note:** `apksigner` is the preferred tool for Android 7.0 (API 24) and higher. `jarsigner` is the legacy tool that still works but `apksigner` provides better support for newer APK signature schemes (v2, v3, v4).
 
 ## Version Information
 

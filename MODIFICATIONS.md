@@ -235,15 +235,17 @@ Use at your own risk.
 
 ## Change Log
 
-### Version 1.1 (Current)
-- **Fixed:** Samsung account login crash issue (AuthFunctionImpl.smali)
+*Most recent version listed first*
+
+### Version 1.1 (Current - 2025-12-14)
+- **NEW:** Fixed Samsung account login crash issue (AuthFunctionImpl.smali)
 - Unlocked hidden developer menu
 - Enabled debug mode
 - Bypassed signature verification
 - Made ManageActivity exportable
 - Added debuggable flag
 
-### Version 1.0
+### Version 1.0 (2025-12-14)
 - Initial modifications for hidden menus and debug mode
 
 ---
