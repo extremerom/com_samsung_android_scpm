@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="chan_mkt">Marketing</string>
+    <string name="chan_ntc">Notice</string>
+    <string name="clear_data_dlg_text">"Ho voafafa mandrakizay ny data rehetran'ity rindranasa ity. Anisan'izany ny rakitra, tefy, kaonty, tobin-data rehetra sns."</string>
+    <string name="clear_dlg_ok">Hamafa</string>
+    <string name="dlg_cancel">Hanafoana</string>
+    <string name="settings_title_clear_data">Hamafa data</string>
+    <string name="settings_title_manage_data">Rindra fitahiry</string>
+    <string name="settings_title_version">Kinova</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="try_again_in_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Torna-ho a intentar d'aquí a %d hora"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Torna-ho a intentar d'aquí a %d hores"</item>
+    </plurals>
+    <plurals name="try_again_in_hours_one_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Torna-ho a intentar d'aquí a %d hora i 1 minut"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Torna-ho a intentar d'aquí a %d hores i 1 minut"</item>
+    </plurals>
+    <plurals name="try_again_in_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Torna-ho a intentar d'aquí a %d minut"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Torna-ho a intentar d'aquí a %d minuts"</item>
+    </plurals>
+    <plurals name="try_again_in_one_hour_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Torna-ho a intentar d'aquí a 1 hora i %d minut"</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">"Torna-ho a intentar d'aquí a 1 hora i %d minuts"</item>
+    </plurals>
+</resources>

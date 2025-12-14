@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/fragment_error_0" android:background="@color/bright_window_background_color_theme" android:layout_width="match_parent" android:layout_height="match_parent" android:defaultFocusHighlightEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/title_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_above="@id/bottom_button_container" android:layout_alignParentTop="true" android:overScrollMode="always">
+        <RelativeLayout android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include android:id="@id/title_view_layout" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout_title_container" />
+            <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="24.0dp" android:layout_below="@id/title_view_layout">
+                <TextView android:textAppearance="@style/BodyTextStyle" android:id="@id/remain_time_textview" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAlignment="center" android:layout_marginStart="69.0dp" android:layout_marginEnd="69.0dp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+    <include android:id="@id/bottom_button_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/layout_bottom_button_container" />
+</RelativeLayout>

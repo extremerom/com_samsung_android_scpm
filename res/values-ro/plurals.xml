@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="try_again_in_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Încercați din nou peste %d oră</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Încercați din nou peste %d ore</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Încercați din nou peste %d ore</item>
+    </plurals>
+    <plurals name="try_again_in_hours_one_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Încercați din nou peste %d oră și 1 minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Încercați din nou peste %d ore și 1 minut</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Încercați din nou peste %d ore și 1 minut</item>
+    </plurals>
+    <plurals name="try_again_in_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Încercați din nou peste %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Încercați din nou peste %d minute</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Încercați din nou peste %d minute</item>
+    </plurals>
+    <plurals name="try_again_in_one_hour_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Încercați din nou peste 1 oră și %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Încercați din nou peste 1 oră și %d minute</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Încercați din nou peste 1 oră și %d minute</item>
+    </plurals>
+</resources>

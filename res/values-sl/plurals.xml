@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="try_again_in_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Poskusite znova čez %d uro</item>
+        <item quantity="two">Poskusite znova čez %d uri</item>
+        <item quantity="few">Poskusite znova čez %d ure</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Poskusite znova čez %d ur</item>
+    </plurals>
+    <plurals name="try_again_in_hours_one_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Poskusite znova čez %d uro 1 minuto</item>
+        <item quantity="two">Poskusite znova čez %d uri 1 minuto</item>
+        <item quantity="few">Poskusite znova čez %d ure 1 minuto</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Poskusite znova čez %d ur 1 minuto</item>
+    </plurals>
+    <plurals name="try_again_in_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Poskusite znova čez %d minuto</item>
+        <item quantity="two">Poskusite znova čez %d minuti</item>
+        <item quantity="few">Poskusite znova čez %d minute</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Poskusite znova čez %d minut</item>
+    </plurals>
+    <plurals name="try_again_in_one_hour_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Poskusite znova čez 1 uro %d minuto</item>
+        <item quantity="two">Poskusite znova čez 1 uro %d minuti</item>
+        <item quantity="few">Poskusite znova čez 1 uro %d minute</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Poskusite znova čez 1 uro %d minut</item>
+    </plurals>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="try_again_in_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d గంటలో మళ్లీ ప్రయత్నించండి</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d గంటలలో మళ్లీ ప్రయత్నించండి</item>
+    </plurals>
+    <plurals name="try_again_in_hours_one_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d గంట 1 నిమిషంలో మళ్లీ ప్రయత్నించండి</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d గంటల 1 నిమిషంలో మళ్లీ ప్రయత్నించండి</item>
+    </plurals>
+    <plurals name="try_again_in_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d నిమిషంలో మళ్లీ ప్రయత్నించండి</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d నిమిషాల్లో మళ్లీ ప్రయత్నించండి</item>
+    </plurals>
+    <plurals name="try_again_in_one_hour_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 గంట %d నిమిషంలో మళ్లీ ప్రయత్నించండి</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 గంట %d నిమిషాల్లో మళ్లీ ప్రయత్నించండి</item>
+    </plurals>
+</resources>

@@ -1,0 +1,20 @@
+{
+  "name": "product_item",
+  "schemas": [
+    "_id integer primary key autoincrement",
+    "modelCode text not null",
+    "modelName text not null",
+    "modifiedDate text not null",
+    "division text not null",
+    "color text",
+    "marketingName text",
+    "itemId text",
+    "itemName text",
+    "type text",
+    "url text",
+    "size integer",
+    "fileRevision integer",
+    "filePath text",
+    "keySpec text"
+  ]
+}

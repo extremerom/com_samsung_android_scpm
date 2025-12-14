@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="try_again_in_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Opakujte akci za %d hodinu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Opakujte akci za %d hodiny</item>
+        <item quantity="many">Opakujte akci za %d hodin</item>
+        <item quantity="other">Opakujte akci za %d hodin</item>
+    </plurals>
+    <plurals name="try_again_in_hours_one_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Opakujte akci za %d hodinu, 1 minutu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Opakujte akci za %d hodiny, 1 minutu</item>
+        <item quantity="many">Opakujte akci za %d hodin, 1 minutu</item>
+        <item quantity="other">Opakujte akci za %d hodin, 1 minutu</item>
+    </plurals>
+    <plurals name="try_again_in_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Opakujte akci za %d minutu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Opakujte akci za %d minuty</item>
+        <item quantity="many">Opakujte akci za %d minut</item>
+        <item quantity="other">Opakujte akci za %d minut</item>
+    </plurals>
+    <plurals name="try_again_in_one_hour_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Opakujte akci za 1 hodinu, %d minutu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Opakujte akci za 1 hodinu, %d minuty</item>
+        <item quantity="many">Opakujte akci za 1 hodinu, %d minut</item>
+        <item quantity="other">Opakujte akci za 1 hodinu, %d minut</item>
+    </plurals>
+</resources>

@@ -1,0 +1,12 @@
+{
+  "1": [
+    "ALTER TABLE configuration ADD COLUMN changePoint TEXT;"
+  ],
+  "2": [
+    "ALTER TABLE configuration ADD COLUMN appToken TEXT;"
+  ],
+  "5": [
+    "ALTER TABLE configuration_item ADD COLUMN contentId TEXT;",
+    "ALTER TABLE configuration_item ADD COLUMN contentVersion INTEGER;"
+  ]
+}

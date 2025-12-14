@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/recovery_code_edittext_0" style="@style/RecoveryCodeEditTextStyle" />
+        <EditText android:id="@id/recovery_code_edittext_1" style="@style/RecoveryCodeEditTextStyle" />
+        <EditText android:id="@id/recovery_code_edittext_2" style="@style/RecoveryCodeEditTextStyle" />
+        <EditText android:id="@id/recovery_code_edittext_3" style="@style/RecoveryCodeEditTextStyle" />
+        <EditText android:id="@id/recovery_code_edittext_4" style="@style/RecoveryCodeEditTextStyle" />
+        <EditText android:id="@id/recovery_code_edittext_5" style="@style/RecoveryCodeEditTextStyle" />
+        <EditText android:id="@id/recovery_code_edittext_6" style="@style/RecoveryCodeEditTextStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/recovery_code_edittext_7" style="@style/RecoveryCodeEditTextStyle" />
+        <EditText android:id="@id/recovery_code_edittext_8" style="@style/RecoveryCodeEditTextStyle" />
+        <EditText android:id="@id/recovery_code_edittext_9" style="@style/RecoveryCodeEditTextStyle" />
+        <EditText android:id="@id/recovery_code_edittext_10" style="@style/RecoveryCodeEditTextStyle" />
+        <EditText android:id="@id/recovery_code_edittext_11" style="@style/RecoveryCodeEditTextStyle" />
+        <EditText android:id="@id/recovery_code_edittext_12" style="@style/RecoveryCodeEditTextStyle" />
+        <EditText android:id="@id/recovery_code_edittext_13" style="@style/RecoveryCodeEditTextStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/recovery_code_edittext_14" style="@style/RecoveryCodeEditTextStyle" />
+        <EditText android:id="@id/recovery_code_edittext_15" style="@style/RecoveryCodeEditTextStyle" />
+        <EditText android:id="@id/recovery_code_edittext_16" style="@style/RecoveryCodeEditTextStyle" />
+        <EditText android:id="@id/recovery_code_edittext_17" style="@style/RecoveryCodeEditTextStyle" />
+        <EditText android:id="@id/recovery_code_edittext_18" style="@style/RecoveryCodeEditTextStyle" />
+        <EditText android:id="@id/recovery_code_edittext_19" style="@style/RecoveryCodeEditTextStyle" />
+        <EditText android:id="@id/recovery_code_edittext_20" style="@style/RecoveryCodeEditTextStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/recovery_code_edittext_21" style="@style/RecoveryCodeEditTextStyle" />
+        <EditText android:id="@id/recovery_code_edittext_22" style="@style/RecoveryCodeEditTextStyle" />
+        <EditText android:id="@id/recovery_code_edittext_23" style="@style/RecoveryCodeEditTextStyle" />
+        <EditText android:id="@id/recovery_code_edittext_24" style="@style/RecoveryCodeEditTextStyle" />
+        <EditText android:id="@id/recovery_code_edittext_25" style="@style/RecoveryCodeEditTextStyle" />
+        <EditText android:id="@id/recovery_code_edittext_26" style="@style/RecoveryCodeEditTextStyle" />
+        <EditText android:id="@id/recovery_code_edittext_27" style="@style/RecoveryCodeEditTextStyle" />
+    </LinearLayout>
+</LinearLayout>

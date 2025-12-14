@@ -1,0 +1,6 @@
+{
+  "2": [
+    "ALTER TABLE registration ADD COLUMN appVersion TEXT;",
+    "ALTER TABLE registration ADD COLUMN features TEXT;"
+  ]
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="try_again_in_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">පැය %dකින් නැවත උත්සාහ කරන්න</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පැය %dකින් නැවත උත්සාහ කරන්න</item>
+    </plurals>
+    <plurals name="try_again_in_hours_one_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">පැය %dයි විනාඩි 1කින් නැවත උත්සාහ කරන්න</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පැය %dයි විනාඩි 1කින් නැවත උත්සාහ කරන්න</item>
+    </plurals>
+    <plurals name="try_again_in_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">විනාඩි %dකින් නැවත උත්සාහ කරන්න</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">විනාඩි %dකින් නැවත උත්සාහ කරන්න</item>
+    </plurals>
+    <plurals name="try_again_in_one_hour_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">පැය 1යි විනාඩි %dකින් නැවත උත්සාහ කරන්න</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">පැය 1යි විනාඩි %dකින් නැවත උත්සාහ කරන්න</item>
+    </plurals>
+</resources>

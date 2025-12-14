@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/fragment_reset_recovery_code_0" android:background="@color/bright_window_background_color_theme" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:defaultFocusHighlightEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:tag="binding_1" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/bottom_button_container" android:layout_alignParentTop="true" android:overScrollMode="always" android:defaultFocusHighlightEnabled="false">
+        <include android:id="@id/title_view_layout" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout_title_container" />
+    </androidx.core.widget.NestedScrollView>
+    <include android:id="@id/bottom_button_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/layout_bottom_button_container" />
+</RelativeLayout>

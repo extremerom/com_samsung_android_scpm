@@ -1,0 +1,37 @@
+.class public final Lkotlin/reflect/jvm/internal/g;
+.super Lkotlin/reflect/jvm/internal/Y;
+.source "SourceFile"
+
+
+# instance fields
+.field public final d:Ljava/lang/reflect/Method;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/reflect/Method;)V
+    .locals 1
+
+    const-string v0, "method"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/k;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lkotlin/reflect/jvm/internal/g;->d:Ljava/lang/reflect/Method;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final c()Ljava/lang/String;
+    .locals 0
+
+    iget-object p0, p0, Lkotlin/reflect/jvm/internal/g;->d:Ljava/lang/reflect/Method;
+
+    invoke-static {p0}, Lkotlin/reflect/jvm/internal/Y;->b(Ljava/lang/reflect/Method;)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method

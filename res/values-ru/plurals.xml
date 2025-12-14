@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="try_again_in_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Повторите попытку через %d час</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Повторите попытку через %d часа</item>
+        <item quantity="many">Повторите попытку через %d часов</item>
+        <item quantity="other">Повторите попытку через %d часа</item>
+    </plurals>
+    <plurals name="try_again_in_hours_one_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Повторите попытку через %d час 1 минуту</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Повторите попытку через %d часа 1 минуту</item>
+        <item quantity="many">Повторите попытку через %d часов 1 минуту</item>
+        <item quantity="other">Повторите попытку через %d часа 1 минуту</item>
+    </plurals>
+    <plurals name="try_again_in_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Повторите попытку через %d минуту</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Повторите попытку через %d минуты</item>
+        <item quantity="many">Повторите попытку через %d минут</item>
+        <item quantity="other">Повторите попытку через %d минуты</item>
+    </plurals>
+    <plurals name="try_again_in_one_hour_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Повторите попытку через 1 час %d минуту</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Повторите попытку через 1 час %d минуты</item>
+        <item quantity="many">Повторите попытку через 1 час %d минут</item>
+        <item quantity="other">Повторите попытку через 1 час %d минуты</item>
+    </plurals>
+</resources>

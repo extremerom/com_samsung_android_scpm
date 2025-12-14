@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph" app:startDestination="@id/StartEmptyFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="StartEmptyFragment" android:name="com.samsung.scpm.pdm.e2ee.view.StartEmptyFragment" android:id="@id/StartEmptyFragment">
+        <action android:id="@id/action_StartEmptyFragment_to_LoadingFragment" app:destination="@id/LoadingFragment" app:launchSingleTop="true" app:popUpTo="@id/StartEmptyFragment" app:popUpToInclusive="true" />
+        <action android:id="@id/action_StartEmptyFragment_to_ErrorFragment" app:destination="@id/ErrorFragment" app:launchSingleTop="true" app:popUpTo="@id/StartEmptyFragment" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="LoadingFragment" android:name="com.samsung.scpm.pdm.e2ee.view.LoadingFragment" android:id="@id/LoadingFragment">
+        <argument android:name="loadingArg" app:argType="com.samsung.scpm.pdm.e2ee.contract.arg.LoadingArg" />
+        <argument android:name="group" app:argType="com.samsung.scpm.pdm.e2ee.contract.Group" />
+        <argument android:name="retryCount" android:defaultValue="0" app:argType="integer" />
+        <action android:id="@id/action_LoadingFragment_to_SetupToRecoveryYourDataFragment" app:destination="@id/SetupToRecoveryYourDataFragment" app:popUpTo="@id/LoadingFragment" app:popUpToInclusive="true" />
+        <action android:id="@id/action_LoadingFragment_to_ErrorFragment" app:destination="@id/ErrorFragment" app:launchSingleTop="true" app:popUpTo="@id/nav_graph" app:popUpToInclusive="true" />
+        <action android:id="@id/action_LoadingFragment_to_RecoveryCodeResetOkFragment" app:destination="@id/ResetRecoveryCodeOkFragment" />
+        <action android:id="@id/action_LoadingFragment_to_ConfirmRecoveryCodeFragment" app:destination="@id/ConfirmRecoveryCodeFragment" app:popUpTo="@id/LoadingFragment" app:popUpToInclusive="true" />
+        <action android:id="@id/action_LoadingFragment_to_EVSetupFragment" app:destination="@id/EVSetupFragment" />
+    </fragment>
+    <fragment android:label="ErrorFragment" android:name="com.samsung.scpm.pdm.e2ee.view.ErrorFragment" android:id="@id/ErrorFragment">
+        <argument android:name="errorCode" app:argType="integer" />
+        <argument android:name="group" android:defaultValue="NONE" app:argType="com.samsung.scpm.pdm.e2ee.contract.Group" />
+    </fragment>
+    <fragment android:label="StartSetupRecoveryCodeFragment" android:name="com.samsung.scpm.pdm.e2ee.view.StartSetupRecoveryCodeFragment" android:id="@id/StartSetupRecoveryCodeFragment">
+        <argument android:name="group" app:argType="com.samsung.scpm.pdm.e2ee.contract.Group" />
+        <action android:id="@id/action_StartSetupRecoveryCodeFragment_to_ShowRecoveryCodeFragment" app:destination="@id/ShowRecoveryCodeFragment" />
+    </fragment>
+    <fragment android:label="EVSetupFragment" android:name="com.samsung.scpm.pdm.e2ee.view.EVSetupFragment" android:id="@id/EVSetupFragment">
+        <argument android:name="eVSetupArg" app:argType="com.samsung.scpm.pdm.e2ee.contract.arg.EVSetupArg" />
+    </fragment>
+    <fragment android:label="SetupToRecoveryYourDataFragment" android:name="com.samsung.scpm.pdm.e2ee.view.SetupRecoveryYourDataFragment" android:id="@id/SetupToRecoveryYourDataFragment">
+        <argument android:name="group" app:argType="com.samsung.scpm.pdm.e2ee.contract.Group" />
+        <action android:id="@id/action_SetupRecoveryYourDataFragment_to_ShowRecoveryCodeFragment" app:destination="@id/ShowRecoveryCodeFragment" />
+    </fragment>
+    <fragment android:label="ShowRecoveryCodeFragment" android:name="com.samsung.scpm.pdm.e2ee.view.ShowRecoveryCodeFragment" android:id="@id/ShowRecoveryCodeFragment">
+        <argument android:name="showRecoveryCodeArg" app:argType="com.samsung.scpm.pdm.e2ee.contract.arg.ShowRecoveryCodeArg" />
+        <argument android:name="group" app:argType="com.samsung.scpm.pdm.e2ee.contract.Group" />
+        <action android:id="@id/action_ShowRecoveryCodeFragment_to_ErrorFragment" app:destination="@id/ErrorFragment" app:launchSingleTop="true" app:popUpTo="@id/nav_graph" app:popUpToInclusive="true" />
+        <action android:id="@id/action_ShowRecoveryCodeFragment_to_ConfirmRecoveryCodeFragment" app:destination="@id/ConfirmRecoveryCodeFragment" />
+    </fragment>
+    <fragment android:label="ConfirmRecoveryCodeFragment" android:name="com.samsung.scpm.pdm.e2ee.view.ConfirmRecoveryCodeFragment" android:id="@id/ConfirmRecoveryCodeFragment">
+        <argument android:name="confirmRecoveryCodeArg" app:argType="com.samsung.scpm.pdm.e2ee.contract.arg.ConfirmRecoveryCodeArg" />
+        <argument android:name="group" app:argType="com.samsung.scpm.pdm.e2ee.contract.Group" />
+        <action android:id="@id/action_ConfirmRecoveryCodeFragment_to_LoadingFragment" app:destination="@id/LoadingFragment" />
+        <action android:id="@id/action_ConfirmRecoveryCodeFragment_to_ErrorFragment" app:destination="@id/ErrorFragment" app:launchSingleTop="true" app:popUpTo="@id/nav_graph" app:popUpToInclusive="true" />
+        <action android:id="@id/action_ConfirmRecoveryCodeFragment_to_EVSetupFragment" app:destination="@id/EVSetupFragment" />
+    </fragment>
+    <fragment android:label="MainFragment" android:name="com.samsung.scpm.pdm.e2ee.view.MainFragment" android:id="@id/MainFragment">
+        <argument android:name="mainArg" app:argType="com.samsung.scpm.pdm.e2ee.contract.arg.MainArg" />
+        <action android:id="@id/action_MainFragment_to_SetupToRecoveryYourDataFragment" app:destination="@id/SetupToRecoveryYourDataFragment" app:enterAnim="@anim/fragment_enter_open" app:popEnterAnim="@anim/fragment_exit_open" app:popUpToInclusive="true" />
+        <action android:id="@id/action_MainFragment_to_ResetRecoveryCodeIntroFragment" app:destination="@id/ResetRecoveryCodeIntroFragment" app:enterAnim="@animator/nav_default_enter_anim" app:exitAnim="@animator/nav_default_exit_anim" />
+        <action android:id="@id/action_MainFragment_to_LoadingFragment" app:destination="@id/LoadingFragment" />
+    </fragment>
+    <fragment android:label="ResetRecoveryCodeIntroFragment" android:name="com.samsung.scpm.pdm.e2ee.view.ResetRecoveryCodeIntroFragment" android:id="@id/ResetRecoveryCodeIntroFragment">
+        <action android:id="@id/action_ResetRecoveryCodeIntroFragment_to_ShowRecoveryCodeFragment" app:destination="@id/ShowRecoveryCodeFragment" />
+    </fragment>
+    <fragment android:label="ResetRecoveryCodeOkFragment" android:name="com.samsung.scpm.pdm.e2ee.view.ResetRecoveryCodeOkFragment" android:id="@id/ResetRecoveryCodeOkFragment">
+        <argument android:name="mainArg" app:argType="com.samsung.scpm.pdm.e2ee.contract.arg.MainArg" />
+        <action android:id="@id/action_ResetRecoveryCodeOkFragment_to_MainFragment" app:destination="@id/MainFragment" app:enterAnim="@anim/fragment_enter_open" app:launchSingleTop="true" app:popEnterAnim="@anim/fragment_exit_open" app:popUpTo="@id/MainFragment" app:popUpToInclusive="true" />
+    </fragment>
+    <dialog android:label="ForgotRecoveryDialogFragment" android:name="com.samsung.scpm.pdm.e2ee.view.ForgotRecoveryDialogFragment" android:id="@id/ForgotRecoveryDialogFragment" />
+</navigation>

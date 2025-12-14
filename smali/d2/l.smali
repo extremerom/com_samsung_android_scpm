@@ -1,0 +1,11 @@
+.class public interface abstract Ld2/l;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/d;
+
+
+# virtual methods
+.method public abstract invoke(Ljava/lang/Object;)Ljava/lang/Object;
+.end method

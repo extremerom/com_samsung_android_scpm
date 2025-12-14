@@ -1,0 +1,12 @@
+{
+  "name": "product",
+  "schemas": [
+    "_id integer primary key autoincrement",
+    "appId text not null",
+    "receiverPackageName text",
+    "lastSyncTime long default 0",
+    "appToken text",
+    "rcode integer default 0",
+    "rmsg text"
+  ]
+}

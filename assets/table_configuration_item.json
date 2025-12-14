@@ -1,0 +1,16 @@
+{
+  "name": "configuration_item",
+  "schemas": [
+    "_id integer primary key autoincrement",
+    "appId text not null",
+    "id text not null",
+    "name text not null",
+    "type text",
+    "url text",
+    "filePath text",
+    "revision long default 0",
+    "size integer default 0",
+    "contentId text not null",
+    "contentVersion integer default 0"
+  ]
+}

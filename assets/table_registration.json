@@ -1,0 +1,12 @@
+{
+  "name": "registration",
+  "schemas": [
+    "_id integer primary key autoincrement",
+    "appId text not null",
+    "packageName text not null",
+    "appVersion text",
+    "appSignature text not null",
+    "token text not null",
+    "features text"
+  ]
+}

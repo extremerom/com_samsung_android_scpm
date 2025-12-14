@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:paddingTop="12.0dp" android:paddingBottom="12.0dp" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/recovery_code_text_view_0" style="@style/RecoveryCodeTextViewStyle" />
+    <TextView android:id="@id/recovery_code_text_view_1" style="@style/RecoveryCodeTextViewStyle" />
+    <TextView android:id="@id/recovery_code_text_view_2" style="@style/RecoveryCodeTextViewStyle" />
+    <TextView android:id="@id/recovery_code_text_view_3" style="@style/RecoveryCodeTextViewStyle" />
+    <TextView android:id="@id/recovery_code_text_view_4" style="@style/RecoveryCodeTextViewStyle" />
+    <TextView android:id="@id/recovery_code_text_view_5" style="@style/RecoveryCodeTextViewStyle" />
+    <TextView android:id="@id/recovery_code_text_view_6" style="@style/RecoveryCodeTextViewStyle" />
+</LinearLayout>

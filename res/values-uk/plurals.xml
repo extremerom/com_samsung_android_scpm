@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="try_again_in_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Спробуйте ще раз через %d годину</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Спробуйте ще раз через %d години</item>
+        <item quantity="many">Спробуйте ще раз через %d годин</item>
+        <item quantity="other">Спробуйте ще раз через %d години</item>
+    </plurals>
+    <plurals name="try_again_in_hours_one_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Спробуйте ще раз через %d годину 1 хвилину</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Спробуйте ще раз через %d години 1 хвилину</item>
+        <item quantity="many">Спробуйте ще раз через %d годин 1 хвилину</item>
+        <item quantity="other">Спробуйте ще раз через %d години 1 хвилину</item>
+    </plurals>
+    <plurals name="try_again_in_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Спробуйте ще раз через %d хвилину</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Спробуйте ще раз через %d хвилини</item>
+        <item quantity="many">Спробуйте ще раз через %d хвилин</item>
+        <item quantity="other">Спробуйте ще раз через %d хвилини</item>
+    </plurals>
+    <plurals name="try_again_in_one_hour_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Спробуйте ще раз через 1 годину %d хвилину</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Спробуйте ще раз через 1 годину %d хвилини</item>
+        <item quantity="many">Спробуйте ще раз через 1 годину %d хвилин</item>
+        <item quantity="other">Спробуйте ще раз через 1 годину %d хвилини</item>
+    </plurals>
+</resources>

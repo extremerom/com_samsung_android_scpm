@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="try_again_in_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bandykite dar kartą po %d val.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Bandykite dar kartą po %d val.</item>
+        <item quantity="many">Bandykite dar kartą po %d val.</item>
+        <item quantity="other">Bandykite dar kartą po %d val.</item>
+    </plurals>
+    <plurals name="try_again_in_hours_one_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bandykite dar kartą po %d val. 1 min.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Bandykite dar kartą po %d val. 1 min.</item>
+        <item quantity="many">Bandykite dar kartą po %d val. 1 min.</item>
+        <item quantity="other">Bandykite dar kartą po %d val. 1 min.</item>
+    </plurals>
+    <plurals name="try_again_in_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bandykite dar kartą po %d min.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Bandykite dar kartą po %d min.</item>
+        <item quantity="many">Bandykite dar kartą po %d min.</item>
+        <item quantity="other">Bandykite dar kartą po %d min.</item>
+    </plurals>
+    <plurals name="try_again_in_one_hour_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bandykite dar kartą po 1 val. %d min.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Bandykite dar kartą po 1 val. %d min.</item>
+        <item quantity="many">Bandykite dar kartą po 1 val. %d min.</item>
+        <item quantity="other">Bandykite dar kartą po 1 val. %d min.</item>
+    </plurals>
+</resources>

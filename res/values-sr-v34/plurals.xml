@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="try_again_in_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Покушајте поново за %d сат</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Покушајте поново за %d сата</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Покушајте поново за %d сати</item>
+    </plurals>
+    <plurals name="try_again_in_hours_one_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Покушајте поново за %d сат и 1 минут</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Покушајте поново за %d сата и 1 минут</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Покушајте поново за %d сати и 1 минут</item>
+    </plurals>
+    <plurals name="try_again_in_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Покушајте поново за %d минут</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Покушајте поново за %d минута</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Покушајте поново за %d минута</item>
+    </plurals>
+    <plurals name="try_again_in_one_hour_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Покушајте поново за 1 сат и %d минут</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Покушајте поново за 1 сат и %d минута</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">Покушајте поново за 1 сат и %d минута</item>
+    </plurals>
+</resources>

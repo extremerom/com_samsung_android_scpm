@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingBottom="40.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/suggestion_popup_negative_button" android:background="@drawable/negative_btn_ripple" style="@style/DialogButton.Layout">
+        <TextView android:textColor="@color/negative_button_text" android:text="@string/go_to_settings" style="@style/DialogButton.Text" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/suggestion_popup_positive_button" android:background="@drawable/positive_btn_ripple" style="@style/DialogButton.Layout">
+        <TextView android:textColor="@color/positive_button_text" android:text="@string/got_it" style="@style/DialogButton.Text" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/suggestion_popup_body" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/suggestion_popup_body_main" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/BodyMain" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/continue_apps_from_one_device_to_the_other" style="@style/BodyTitle" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/if_you_re_in_the_middle_of_a_task_on_your_phone" style="@style/BodyDescription" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/share_files_easily" style="@style/BodyTitle" />
+        <TextView android:id="@id/send_pictures_videos_and_documents" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/send_pictures_videos_and_documents_from_your_phone" style="@style/BodyDescription" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/call_and_text_on_your_tablet" style="@style/BodyTitle" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/use_your_tablet_to_make_and_answer_calls_and_send_and_receive_texts" style="@style/BodyDescription" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/control_your_phone_with_your_tablets_keyboard_and_mouse" style="@style/BodyTitle" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/multi_control_lets_you_use_a_single_keyboard" style="@style/BodyDescription" />
+    </LinearLayout>
+</ScrollView>

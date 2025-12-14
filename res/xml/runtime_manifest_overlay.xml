@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<runtime-manifest
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <policy android:label="@string/samsung_cloud_assistant_no_brand" android:enabled="true" android:priority="2" type="SALESCODE" value="VZW" />
+    </application>
+</runtime-manifest>

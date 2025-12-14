@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="try_again_in_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Skúste to znova o %d hodinu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Skúste to znova o %d hodiny</item>
+        <item quantity="many">Skúste to znova o %d hodiny</item>
+        <item quantity="other">Skúste to znova o %d hodín</item>
+    </plurals>
+    <plurals name="try_again_in_hours_one_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Skúste to znova o %d hodinu a 1 minútu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Skúste to znova o %d hodiny a 1 minútu</item>
+        <item quantity="many">Skúste to znova o %d hodiny a 1 minútu</item>
+        <item quantity="other">Skúste to znova o %d hodín a 1 minútu</item>
+    </plurals>
+    <plurals name="try_again_in_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Skúste to znova o %d minútu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Skúste to znova o %d minúty</item>
+        <item quantity="many">Skúste to znova o %d minúty</item>
+        <item quantity="other">Skúste to znova o %d minút</item>
+    </plurals>
+    <plurals name="try_again_in_one_hour_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Skúste to znova o 1 hodinu a %d minútu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Skúste to znova o 1 hodinu a %d minúty</item>
+        <item quantity="many">Skúste to znova o 1 hodinu a %d minúty</item>
+        <item quantity="other">Skúste to znova o 1 hodinu a %d minút</item>
+    </plurals>
+</resources>

@@ -1,0 +1,9 @@
+{
+  "1": [
+    "ALTER TABLE product_item ADD COLUMN keySpec TEXT;",
+    "ALTER TABLE product_item ADD COLUMN fileRevision INTEGER;"
+  ],
+  "2": [
+    "ALTER TABLE product ADD COLUMN appToken TEXT;"
+  ]
+}

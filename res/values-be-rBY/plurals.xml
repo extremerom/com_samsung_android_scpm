@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="try_again_in_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Паўтарыце спробу праз %d гадзіну</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Паўтарыце спробу праз %d гадзіны</item>
+        <item quantity="many">Паўтарыце спробу праз %d гадзін</item>
+        <item quantity="other">Паўтарыце спробу праз %d гадзін</item>
+    </plurals>
+    <plurals name="try_again_in_hours_one_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Паўтарыце спробу праз %d гадзіну і 1 хвіліну</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Паўтарыце спробу праз %d гадзіны і 1 хвіліну</item>
+        <item quantity="many">Паўтарыце спробу праз %d гадзін і 1 хвіліну</item>
+        <item quantity="other">Паўтарыце спробу праз %d гадзін і 1 хвіліну</item>
+    </plurals>
+    <plurals name="try_again_in_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Паўтарыце спробу праз %d хвіліну</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Паўтарыце спробу праз %d хвіліны</item>
+        <item quantity="many">Паўтарыце спробу праз %d хвілін</item>
+        <item quantity="other">Паўтарыце спробу праз %d хвілін</item>
+    </plurals>
+    <plurals name="try_again_in_one_hour_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Паўтарыце спробу праз 1 гадзіну і %d хвіліну</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Паўтарыце спробу праз 1 гадзіну і %d хвіліны</item>
+        <item quantity="many">Паўтарыце спробу праз 1 гадзіну і %d хвілін</item>
+        <item quantity="other">Паўтарыце спробу праз 1 гадзіну і %d хвілін</item>
+    </plurals>
+</resources>

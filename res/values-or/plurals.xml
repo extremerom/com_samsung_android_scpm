@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="try_again_in_hours">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ଘଣ୍ଟା‌ରେ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ଘଣ୍ଟା‌ରେ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="try_again_in_hours_one_minute">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ଘଣ୍ଟା 1 ମିନିଟରେ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ଘଣ୍ଟା 1 ମିନିଟରେ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="try_again_in_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ମିନିଟରେ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">%d ମିନିଟରେ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="try_again_in_one_hour_minutes">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">1 ଘଣ୍ଟା %d ମିନିଟରେ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">1 ଘଣ୍ଟା %d ମିନିଟରେ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ</item>
+    </plurals>
+</resources>

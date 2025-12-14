@@ -1,0 +1,48 @@
+.class public final Lkotlinx/coroutines/flow/B0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlinx/coroutines/flow/E0;
+.implements Lkotlinx/coroutines/flow/f;
+.implements Lkotlinx/coroutines/flow/internal/o;
+
+
+# instance fields
+.field public final synthetic c:Lkotlinx/coroutines/flow/H0;
+
+
+# direct methods
+.method public constructor <init>(Lkotlinx/coroutines/flow/H0;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lkotlinx/coroutines/flow/B0;->c:Lkotlinx/coroutines/flow/H0;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final c(Lkotlin/coroutines/i;ILkotlinx/coroutines/channels/BufferOverflow;)Lkotlinx/coroutines/flow/f;
+    .locals 0
+
+    invoke-static {p0, p1, p2, p3}, Lkotlinx/coroutines/flow/h;->i(Lkotlinx/coroutines/flow/E0;Lkotlin/coroutines/i;ILkotlinx/coroutines/channels/BufferOverflow;)Lkotlinx/coroutines/flow/f;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final collect(Lkotlinx/coroutines/flow/g;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    .locals 0
+
+    iget-object p0, p0, Lkotlinx/coroutines/flow/B0;->c:Lkotlinx/coroutines/flow/H0;
+
+    invoke-static {p0, p1, p2}, Lkotlinx/coroutines/flow/H0;->k(Lkotlinx/coroutines/flow/H0;Lkotlinx/coroutines/flow/g;Lkotlin/coroutines/c;)Lkotlin/coroutines/intrinsics/CoroutineSingletons;
+
+    move-result-object p0
+
+    return-object p0
+.end method

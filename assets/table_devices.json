@@ -1,0 +1,20 @@
+{
+  "name": "devices",
+  "schemas": [
+    "_id integer primary key autoincrement",
+    "id text not null",
+    "alias text",
+    "type text not null",
+    "model_name text not null",
+    "model_code text",
+    "os_type text not null",
+    "os_version text not null",
+    "platform_version text",
+    "country_code text",
+    "sim_mcc text",
+    "sim_mnc text",
+    "csc text",
+    "registration_time integer not null",
+    "last_access_time integer not null"
+  ]
+}

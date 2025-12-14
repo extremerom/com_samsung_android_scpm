@@ -1,0 +1,17 @@
+{
+  "name": "configuration",
+  "schemas": [
+    "_id integer primary key autoincrement",
+    "appId text not null",
+    "version text",
+    "policyGroup text",
+    "filterId text",
+    "receiverPackageName text",
+    "period integer default 0",
+    "lastSyncTime long default 0",
+    "changePoint text",
+    "appToken text",
+    "rcode integer default 0",
+    "rmsg text"
+  ]
+}

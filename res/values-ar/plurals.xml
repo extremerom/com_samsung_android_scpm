@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="try_again_in_hours">
+        <item quantity="zero">حاول مرة أخرى خلال %d ساعة</item>
+        <item quantity="one">حاول مرة أخرى خلال ساعة واحدة</item>
+        <item quantity="two">حاول مرة أخرى خلال ساعتين</item>
+        <item quantity="few">حاول مرة أخرى خلال %d ساعات</item>
+        <item quantity="many">حاول مرة أخرى خلال %d ساعةً</item>
+        <item quantity="other">حاول مرة أخرى خلال %d ساعة</item>
+    </plurals>
+    <plurals name="try_again_in_hours_one_minute">
+        <item quantity="zero">حاول مرة أخرى خلال %d ساعة ودقيقة واحدة</item>
+        <item quantity="one">حاول مرة أخرى خلال ساعة واحدة ودقيقة واحدة</item>
+        <item quantity="two">حاول مرة أخرى خلال ساعتين ودقيقة واحدة</item>
+        <item quantity="few">حاول مرة أخرى خلال %d ساعات ودقيقة واحدة</item>
+        <item quantity="many">حاول مرة أخرى خلال %d ساعةً ودقيقة واحدة</item>
+        <item quantity="other">حاول مرة أخرى خلال %d ساعة ودقيقة واحدة</item>
+    </plurals>
+    <plurals name="try_again_in_minutes">
+        <item quantity="zero">حاول مرة أخرى خلال %d دقيقة</item>
+        <item quantity="one">حاول مرة أخرى خلال دقيقة واحدة</item>
+        <item quantity="two">حاول مرة أخرى خلال دقيقتين</item>
+        <item quantity="few">حاول مرة أخرى خلال %d دقائق</item>
+        <item quantity="many">حاول مرة أخرى خلال %d دقيقةً</item>
+        <item quantity="other">حاول مرة أخرى خلال %d دقيقة</item>
+    </plurals>
+    <plurals name="try_again_in_one_hour_minutes">
+        <item quantity="zero">حاول مرة أخرى خلال ساعة واحدة و%d دقيقة</item>
+        <item quantity="one">حاول مرة أخرى خلال ساعة واحدة ودقيقة واحدة</item>
+        <item quantity="two">حاول مرة أخرى خلال ساعة واحدة ودقيقتين</item>
+        <item quantity="few">حاول مرة أخرى خلال ساعة واحدة و%d دقائق</item>
+        <item quantity="many">حاول مرة أخرى خلال ساعة واحدة و%d دقيقةً</item>
+        <item quantity="other">حاول مرة أخرى خلال ساعة واحدة و%d دقيقة</item>
+    </plurals>
+</resources>
