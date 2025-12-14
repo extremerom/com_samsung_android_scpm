@@ -508,6 +508,9 @@
 
     invoke-virtual {p1, p0}, Landroidx/preference/Preference;->setOnPreferenceClickListener(Landroidx/preference/Preference$OnPreferenceClickListener;)V
 
+    # Auto-enable hidden developer preferences without requiring clicks
+    invoke-direct {p0}, Lcom/samsung/android/scpm/app/dev/ManageActivityFragment;->addHiddenPreference()V
+
     invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object p0
